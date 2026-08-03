@@ -1,0 +1,16 @@
+{
+  "name": "vidlink-stream-extractor",
+  "version": "1.0.0",
+  "description": "Ad-free m3u8 stream extractor for VidLink",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "puppeteer": "^22.6.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
